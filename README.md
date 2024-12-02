@@ -16,7 +16,7 @@ FPGA工程、verilog代码与说明文档正在整理，两天内完成上传
 
 作品亮点：
 
-![作品亮点](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/作品亮点.jpg) 
+![作品亮点](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/作品亮点%20.jpg) 
 
 算法细节：
 
@@ -122,7 +122,7 @@ HDMI输入模块由i2c时序控制模块（i2c_timing_ctrl），ADV7611寄存器
 
 其中，ADV7611寄存器配置模块中存储着HDMI信号传输所需的EDID配置信息以及ADV7611芯片其他寄存器信息。i2c时序控制模块依据index信号和size信号按顺序从其中读取寄存器配置，并按照i2c总线协议输入进子卡的ADV7611芯片中，完成初始化，并将ADV7611初始化完成信号置高。时钟与复位信号由锁相环输入。
 
-![EDID中640×480@60对应的DTD信息](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/HDMIEDID中640×480@60对应的DTD信息.png) 
+![EDID中640×480@60对应的DTD信息](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/EDID%E4%B8%AD640%C3%97480%4060%E5%AF%B9%E5%BA%94%E7%9A%84DTD%E4%BF%A1%E6%81%AF.png) 
 
 之后，HDMI输入子卡将输入的HDMI信号解码，输出像素时钟（hdmi_pclk）、场信号（hdmi_vs）、数据有效信号（hdmi_de）以及像素RGB888信号（hdmi_data[31:0]），其中场信号hdmi_vs用于指示一帧视频图像的结束，写地址切换回初始地址。像素RGB888信号高8位补零，32位以对齐DDR输入位宽。通过AXI总线，将有效数据同步存储进DDR中。在读数据一侧，AXI总线接收读时钟（data_read_clk），反读场信号（~data_read_vs），读有效（data_read_en），并同步输出有效像素信号。场信号用于指示一帧的结束。
 
