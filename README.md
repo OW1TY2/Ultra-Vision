@@ -3,6 +3,8 @@ GUI单片机部分已经上传完毕
 
 FPGA工程、verilog代码与说明文档正在整理，两天内完成上传
 
+路演演示视频：[【FPGA创新设计竞赛】2024年国一+易灵思企业杯获奖作品——基于Ti60F225的无极缩放算法实现](https://www.bilibili.com/video/BV1WjzsY2E4v/?p=1&unique_k=114514)
+
 # 作品实物图
 ![系统整体照片](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/系统整体照片.png) 
 
