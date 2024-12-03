@@ -144,7 +144,7 @@ DDR通过Efinity提供的ip核进行配置。时钟与复位信号由锁相环�
 对于每一个通道，算法的处理都是相同的，我们在这里以R通道为例。
 
 ##### 2.1.2.3.1 双三次插值算法原理
-转到Algorithm文件夹下
+[转到Algorithm文件夹下](https://github.com/Floatkyun/Ultra-Vision/tree/main/Algorithm)
 
 
 #### 2.1.2.4 HDMI输出模块（设计1）
