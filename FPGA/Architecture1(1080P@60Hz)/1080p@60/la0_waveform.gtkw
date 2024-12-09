@@ -1,0 +1,16 @@
+[dumpfile] "C:\Users\User\AppData\Local\Temp\tmpadtswxv4\tmp_continous.vcd"
+[dumpfile_mtime] "Mon Sep 23 14:08:29 2024"
+[dumpfile_size] 1245
+[savefile] "D:\FPGA_learning\Q_Project_item\Ti60F225_ADV7611\V5_Ti60_AR0135_HDMI\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 2048 6144 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.LCD_DATA[23:0]
+top.LCD_DE
+top.LCD_DCLK
+top.LCD_HS
+top.LCD_VS

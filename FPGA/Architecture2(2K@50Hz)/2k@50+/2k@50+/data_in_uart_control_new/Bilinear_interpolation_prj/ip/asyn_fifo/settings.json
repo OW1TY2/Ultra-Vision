@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "asyn_fifo",
+        "--base_path",
+        "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "13",
+        "DATA_WIDTH": "11",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TITANIUM\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\asyn_fifo_tmpl.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\asyn_fifo_define.vh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\asyn_fifo_tmpl.vhd",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\asyn_fifo.v"
+        ],
+        "external_example_example": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo_top.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\T20F256_devkit\\asyn_fifo.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\T20F256_devkit\\asyn_fifo_define.vh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo.peri.xml",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo_top.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Ti60F225_devkit\\asyn_fifo.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Ti60F225_devkit\\asyn_fifo_define.vh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Testbench\\fifo_tb.sv",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Testbench\\xrun.sh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Testbench\\msim.sh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Testbench\\flist",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Testbench\\modelsim.do",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Testbench\\asyn_fifo.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\asyn_fifo\\Testbench\\asyn_fifo_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-05T03:22:08.860606"
+}

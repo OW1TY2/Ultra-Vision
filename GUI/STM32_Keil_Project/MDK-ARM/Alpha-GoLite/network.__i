@@ -1,0 +1,8 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m7 -mfpu=fpv5-d16 -mfloat-abi=hard -c
+-fno-rtti -flto -funsigned-char -fshort-enums -fshort-wchar
+-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Core/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc -I ../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I ../Drivers/CMSIS/Include -I ../Middlewares/ST/AI/Inc -I ../X-CUBE-AI/App -I ../MY_APP -I ../RGBLCD -I ../LVGL/LVGL_SRC/lvgl -I ../LVGL/LVGL_SRC/lvgl/examples/porting -I ../LVGL/generated
+-I./RTE/_Alpha-GoLite
+-IC:/Keil_v5/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+-IC:/Keil_v5/Keil/STM32H7xx_DFP/3.1.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include
+-D__UVISION_VERSION="537" -D_RTE_ -DSTM32H743xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32H743xx
+-o alpha-golite/network.o -MD "../X-CUBE-AI/App/network.c"

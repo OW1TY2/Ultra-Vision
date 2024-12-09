@@ -1,0 +1,2473 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 22, 2023 06:54:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 21:29:46
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'i2c_timing_ctrl' (VERI-1063) (D:\FPGA_learning\Q_Project_item\Ti60F225_ADV7611\V5_Ti60_AR0135_HDMI\example_top.v:635)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 21:30:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'W0_FIFO_128' (VERI-1063) (D:\FPGA_learning\Q_Project_item\Ti60F225_ADV7611\V5_Ti60_AR0135_HDMI\src\axi\axi4_ctrl.v:334)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 21:32:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 21:41:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 21:52:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 21:59:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 22:16:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 23, 2024 22:26:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2024 13:10:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2024 13:20:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 24, 2024 13:25:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 09:53:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 12:27:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 12:35:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 12:49:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 13:14:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 13:38:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:04:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:21:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:854)
+[EFX-0010 VERI-ERROR] 'frame_count' is not a constant (VERI-1188) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:782)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:912)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:23:17
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'frame_count' is not a constant (VERI-1188) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:781)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:912)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:35:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:829)
+[EFX-0010 VERI-ERROR] 'H_REAL' is not a constant (VERI-1188) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:841)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:918)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:36:36
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'input' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\axi\axi4_ctrl.v:76)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'input' used in incorrect context (VERI-2344) (D:\liulanqi\FPGA_C\1051\1051\src\axi\axi4_ctrl.v:76)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:46:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'input' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\axi\axi4_ctrl.v:76)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'input' used in incorrect context (VERI-2344) (D:\liulanqi\FPGA_C\1051\1051\src\axi\axi4_ctrl.v:76)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:46:52
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'frame_count' is constantly driven from multiple places (VDB-1000) (D:\liulanqi\FPGA_C\1051\1051\src\lcd_driver.v:100)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (D:\liulanqi\FPGA_C\1051\1051\src\lcd_driver.v:123)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 14:47:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 15:11:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\lcd_driver.v:57)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 15:12:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 15:27:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 15:38:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 16:25:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 16:46:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 17:39:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 18:44:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:22:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'data_process' (VERI-1063) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:673)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:23:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ''' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:87)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'data_hs' is not permitted (VERI-1100) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:51)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'data_vs' is not permitted (VERI-1100) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:74)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'data_de' is not permitted (VERI-1100) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:79)
+[EFX-0010 VERI-ERROR] module 'data_process' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:99)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:26:55
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'data_data' on this module (VERI-1010) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:672)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:27:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:36:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:46:54
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '12' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:27)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:47:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '12' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:27)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 19:48:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 20:06:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 20:12:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 20:25:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 20:36:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 20:45:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 20:54:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 21:06:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 21:15:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 21:24:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 21:39:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 21:54:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 22:27:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:882)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:971)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 22:27:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 22:29:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 05, 2024 22:39:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 09:48:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 10:11:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 10:21:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 10:42:10
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:40)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 10:46:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 10:55:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:07:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '(' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:666)
+[EFX-0010 VERI-ERROR] 'data_process' is an unknown type (VERI-1556) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:673)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:979)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:11:42
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'H_REAL' is not a constant (VERI-1188) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:666)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:980)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:21:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (D:\liulanqi\FPGA_C\1051\1051\src\data_process.v:40)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:25:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 11:35:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 13:34:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'w_C_BASE_ADDR' is not declared (VERI-1128) (D:\liulanqi\FPGA_C\1051\1051\src\axi\axi4_ctrl.v:268)
+[EFX-0010 VERI-ERROR] module 'axi4_ctrl' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\src\axi\axi4_ctrl.v:628)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 13:36:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 13:52:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 14:02:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 14:16:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 14:19:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 14:41:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 06, 2024 14:47:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 09:41:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 09:48:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 09:56:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 10:04:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 10:19:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 10:31:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 10:55:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 10:56:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 11:05:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 11:25:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 11:32:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 11:34:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 11:49:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 14:17:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 14:20:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 14:33:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 14:37:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 14:48:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'clk_27m' is not declared (VERI-1128) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:369)
+[EFX-0010 VERI-ERROR] 'clk_54m' is not declared (VERI-1128) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:370)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\liulanqi\FPGA_C\1051\1051\example_top.v:905)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 14:49:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 15:03:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 15:29:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 15:32:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 16:57:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 17:01:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 17:09:45
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 17:34:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 20:00:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'lcd_driver' (VERI-1137) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:655)
+[EFX-0010 VERI-ERROR] syntax error near '}' (VERI-1137) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:674)
+[EFX-0010 VERI-ERROR] 'hreal' is not declared (VERI-1128) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:565)
+[EFX-0010 VERI-ERROR] 'vreal' is not declared (VERI-1128) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:566)
+[EFX-0010 VERI-ERROR] 'bf_hreal' is not declared (VERI-1128) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:567)
+[EFX-0010 VERI-ERROR] 'bf_vreal' is not declared (VERI-1128) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:568)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:734)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 20:02:10
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'bf_hreal' is not declared (VERI-1128) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:567)
+[EFX-0010 VERI-ERROR] 'bf_vreal' is not declared (VERI-1128) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:568)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:734)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 20:07:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'ini' is constantly driven from multiple places (VDB-1000) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:449)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:450)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 20:07:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 20:26:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 20:32:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 21:20:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near '.' (VERI-1137) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:488)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:742)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 21:20:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 21:40:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\HDMIdatain\data_loader.v:20)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 21:42:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 21:51:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 22:00:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 07, 2024 22:15:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 20:36:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 21:14:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 21:23:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 21:26:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 22:09:04
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 22:17:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 22:22:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 22:29:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 22:37:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 23:23:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'end' (VERI-1137) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:59)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'end' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:59)
+[EFX-0010 VERI-ERROR] module 'data_in_uart_control_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:170)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 08, 2024 23:24:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 09:25:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 11:03:31
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'bf_process_vs' is not declared (VERI-1128) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:580)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\107liantiao\1051\example_top.v:783)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 15:38:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 16:08:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 16:27:58
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 16:34:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 16:38:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 16:43:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 16:50:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 16:58:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 17:07:06
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 17:18:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 17:24:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 17:34:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 17:39:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 17:51:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 17:57:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 21:06:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 21:49:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 22:09:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\HDMIdatain\data_loader.v:18)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 22:19:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\HDMIdatain\data_loader.v:82)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\HDMIdatain\data_loader.v:82)
+[EFX-0010 VERI-ERROR] module 'data_loader' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\107liantiao\1051\data_in_uart_control_new\rtl\HDMIdatain\data_loader.v:209)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 22:20:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 22:29:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 22:39:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 22:47:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 22:52:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 23:04:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 23:10:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 23:18:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 23:28:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 23:35:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 23:41:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 23:50:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 16:31:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 16:38:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 16:43:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 16:51:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 16:58:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 17:20:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 17:33:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 17:41:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 17:53:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 17:59:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 18:06:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 10, 2024 18:12:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 12, 2024 23:22:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 20, 2024 09:40:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'data_driver' (VERI-1063) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:719)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 20, 2024 09:41:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 14:22:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'RGB_data_i' (VERI-1011) (C:\Users\32954\Desktop\102015hz4ktry\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:95)
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'RGB_data_i' (VERI-1011) (C:\Users\32954\Desktop\102015hz4ktry\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:96)
+[EFX-0010 VERI-ERROR] cannot index into non-array type wire for 'RGB_data_i' (VERI-1011) (C:\Users\32954\Desktop\102015hz4ktry\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:97)
+[EFX-0010 VERI-ERROR] module 'data_in_uart_control_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\102015hz4ktry\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:152)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 14:23:50
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] unexpected EOF (VERI-1138) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:85)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 14:24:21
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot assign to memory 'state' directly (VERI-1006) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:31)
+[EFX-0010 VERI-ERROR] cannot assign a packed type to an unpacked type (VERI-1349) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:31)
+[EFX-0010 VERI-ERROR] unpacked value/target cannot be used in an assignment (VERI-1644) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:31)
+[EFX-0010 VERI-ERROR] cannot access memory 'state' directly (VERI-1002) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:35)
+[EFX-0010 VERI-ERROR] cannot mix packed and unpacked type for operator '!=' (VERI-2635) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:35)
+[EFX-0010 VERI-ERROR] cannot assign to memory 'state' directly (VERI-1006) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:36)
+[EFX-0010 VERI-ERROR] cannot assign a packed type to an unpacked type (VERI-1349) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:36)
+[EFX-0010 VERI-ERROR] unpacked value/target cannot be used in an assignment (VERI-1644) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:36)
+[EFX-0010 VERI-ERROR] cannot access memory 'state' directly (VERI-1002) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:38)
+[EFX-0010 VERI-ERROR] cannot mix packed and unpacked type for operator '==' (VERI-2635) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:38)
+[EFX-0010 VERI-ERROR] cannot assign to memory 'state' directly (VERI-1006) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:39)
+[EFX-0010 VERI-ERROR] cannot assign a packed type to an unpacked type (VERI-1349) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:39)
+[EFX-0010 VERI-ERROR] unpacked value/target cannot be used in an assignment (VERI-1644) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:39)
+[EFX-0010 VERI-ERROR] cannot access memory 'state' directly (VERI-1002) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:42)
+[EFX-0010 VERI-ERROR] cannot mix packed and unpacked type for operator '==' (VERI-2635) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:42)
+[EFX-0010 VERI-ERROR] cannot assign to memory 'state' directly (VERI-1006) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:43)
+[EFX-0010 VERI-ERROR] cannot assign a packed type to an unpacked type (VERI-1349) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:43)
+[EFX-0010 VERI-ERROR] unpacked value/target cannot be used in an assignment (VERI-1644) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:43)
+[EFX-0010 VERI-ERROR] module 'fifo_to_lcd' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:86)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 14:25:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'date_hs' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:59)
+[EFX-0010 VERI-ERROR] module 'data_driver' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:116)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 14:26:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'date_hs' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:59)
+[EFX-0010 VERI-ERROR] module 'data_driver' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:116)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 14:26:28
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'clk_x27' on this module (VERI-1010) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:715)
+[EFX-0010 VERI-ERROR] cannot find port 'wrclk' on this module (VERI-1010) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:803)
+[EFX-0010 VERI-ERROR] cannot find port 'rdclk' on this module (VERI-1010) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:804)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 14:27:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 15:36:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:07:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'rst_n' on this module (VERI-1010) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:852)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:08:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:17:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'lcd_data[23]' is constantly driven from multiple places (VDB-1000) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:691)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:848)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:19:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'debug' is not permitted (VERI-1195) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:857)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:19:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:24:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:40:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 19:51:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 20:09:28
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'reg' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:51)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'reg' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:51)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:55)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:58)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:59)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:61)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:63)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:66)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:79)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:105)
+[EFX-0010 VERI-ERROR] 'hcnt' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:118)
+[EFX-0010 VERI-ERROR] module 'data_driver' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\data_driver.v:124)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 20:09:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 20:13:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 20:18:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 20:40:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 20:53:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:00:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:08:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:26:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:850)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:850)
+[EFX-0010 VERI-ERROR] syntax error near 'u_fifo_to_lcd' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:853)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:870)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:902)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:948)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:27:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:850)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'wire' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:850)
+[EFX-0010 VERI-ERROR] syntax error near 'u_fifo_to_lcd' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:853)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:870)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:902)
+[EFX-0010 VERI-ERROR] syntax error near ';' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\example_top.v:948)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:28:33
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'output' (VERI-1137) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:18)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'output' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:18)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:29:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:37:49
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'prog_empty_o' is not permitted (VERI-1195) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:84)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'prog_full_o' is not permitted (VERI-1195) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:85)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'full_o' is not permitted (VERI-1195) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:86)
+[EFX-0010 VERI-ERROR] concurrent assignment to a non-net 'empty_o' is not permitted (VERI-1195) (C:\Users\32954\Desktop\102015hz4ktry\1051\src\fifo_to_lcd.v:87)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:38:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:48:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'prog_full_o' on this module (VERI-1010) (C:\Users\32954\Desktop\102015hz4ktry\1051\data_in_uart_control_new\rtl\Bilinear_interpolation\bilinear_interpolation.v:531)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 21:50:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 22:53:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 23:03:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 23:19:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 23:34:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 21, 2024 23:43:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 21:25:09
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'order_mes' is not declared (VERI-1128) (C:\Users\32954\Desktop\102015hz4ktry (2) (2)\1051\example_top.v:749)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\102015hz4ktry (2) (2)\1051\example_top.v:959)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 21:26:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 22:44:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 22:53:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 23:01:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 23:16:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 23:16:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 23:32:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 23:41:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 23:49:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'lcd_data[23]' is constantly driven from multiple places (VDB-1000) (C:\Users\32954\Desktop\102015hz4ktry (2) (2)\1051\example_top.v:691)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (C:\Users\32954\Desktop\102015hz4ktry (2) (2)\1051\example_top.v:864)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 22, 2024 23:54:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:12:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:20:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:27:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:34:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:34:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:41:51
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:50:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 15:57:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:11:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:17:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:23:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:28:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:33:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:38:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:44:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 16:49:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 17:14:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 17:24:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 23, 2024 17:31:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 24, 2024 16:40:24
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'out_model' on this module (VERI-1010) (C:\Users\32954\Desktop\2suanfa\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:156)
+[EFX-0010 VERI-ERROR] cannot find port 'vid_format' on this module (VERI-1010) (C:\Users\32954\Desktop\2suanfa\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:157)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 24, 2024 16:43:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 24, 2024 16:52:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 24, 2024 17:01:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 24, 2024 17:08:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 18:35:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 18:40:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 18:49:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 18:53:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 18:58:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 19:06:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 15:35:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 15:39:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 15:47:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 15:52:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 15:59:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:05:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:10:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:16:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:22:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:28:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:34:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:39:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:45:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:49:01
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 16:56:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 17:03:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 17:08:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:18:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:19:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:32:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'rgb_bicubic' (VERI-1063) (C:\Users\32954\Desktop\640-2k_@28.45_ok (3)\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:110)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:33:44
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'rgb_bicubic' (VERI-1063) (C:\Users\32954\Desktop\640-2k_@28.45_ok (3)\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:110)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:35:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:37:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:48:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 22:53:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 18, 2024 23:06:44
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 16:38:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 16:45:11
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] illegal character '2' in binary number 2'b2 (VERI-1038) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:121)
+[EFX-0010 VERI-ERROR] module 'data_in_uart_control_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:186)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 16:46:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 16:52:21
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 16:59:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 17:09:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 17:46:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 17:50:30
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:115)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:115)
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'out_model' is not permitted (VERI-1100) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:114)
+[EFX-0010 VERI-ERROR] module 'data_in_uart_control_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:200)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 17:52:18
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'else' (VERI-1137) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:115)
+[EFX-0010 VERI-ERROR] Verilog 2000 keyword 'else' used in incorrect context (VERI-2344) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:115)
+[EFX-0010 VERI-ERROR] module 'data_in_uart_control_top' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\data_in_uart_control_top.v:200)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 17:53:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 18:08:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 18:47:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 18:57:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 19:02:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 19:08:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 19:17:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 19:21:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 19:36:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 19:56:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 20:01:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 20:04:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 20:07:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 20:51:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 20:53:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 20:56:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 21:00:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 21:10:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 21:52:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 21:55:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 22:04:38
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'result1' is not declared (VERI-1128) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\Bicubic_interpolation\parameter\mul_4.v:25)
+[EFX-0010 VERI-ERROR] 'result1' is not declared (VERI-1128) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\Bicubic_interpolation\parameter\mul_4.v:28)
+[EFX-0010 VERI-ERROR] 'result1' is not declared (VERI-1128) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\Bicubic_interpolation\parameter\mul_4.v:40)
+[EFX-0010 VERI-ERROR] module 'mul_4' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\FPGA\2k_bicubic\1051\data_in_uart_control_new\rtl\Bicubic_interpolation\parameter\mul_4.v:64)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 22:05:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 22:13:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 22:24:22
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 19, 2024 22:29:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 21, 2024 20:46:33
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 21, 2024 21:24:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 15:31:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 15:33:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 16:08:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 16:19:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 16:27:37
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 16:35:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 16:54:30
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 17:12:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 17:43:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 18:19:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 18:25:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 18:38:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 18:44:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 18:50:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 18:55:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 19:02:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 20:17:50
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 20:26:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 20:32:13
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 20:40:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 20:49:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 20:56:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 21:04:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 21:09:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 21:19:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 21:26:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 21:35:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 21:49:43
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 22:00:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 22:07:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 22:22:00
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] non-net port 'V' cannot be of mode input (VERI-1325) (C:\Users\32954\Desktop\fpga2\2k_bicubic_@16.8_nopai_mode3\1051\src\fifo_to_lcd.v:11)
+[EFX-0010 VERI-ERROR] module 'fifo_to_lcd' is ignored due to previous errors (VERI-1072) (C:\Users\32954\Desktop\fpga2\2k_bicubic_@16.8_nopai_mode3\1051\src\fifo_to_lcd.v:108)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 22:22:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'V' on this module (VERI-1010) (C:\Users\32954\Desktop\fpga2\2k_bicubic_@16.8_nopai_mode3\1051\example_top.v:767)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 22:24:02
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'Vv' on this module (VERI-1010) (C:\Users\32954\Desktop\fpga2\2k_bicubic_@16.8_nopai_mode3\1051\example_top.v:767)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 23, 2024 22:24:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 25, 2024 22:01:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 25, 2024 22:09:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 25, 2024 22:18:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 25, 2024 22:30:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 25, 2024 22:36:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 25, 2024 22:45:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 18:56:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 19:03:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 19:12:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 19:19:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 19:28:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 19:46:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 19:55:17
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 20:06:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 20:17:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 20:25:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 20:36:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 20:45:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 20:53:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 21:02:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 22:55:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 27, 2024 23:00:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 28, 2024 13:59:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 28, 2024 14:06:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 28, 2024 14:12:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 28, 2024 14:17:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 28, 2024 14:21:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 20:13:12
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 20:19:52
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 20:26:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 20:43:27
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 21:48:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 22:06:39
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 22:45:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 29, 2024 22:53:11
+///////////////////////////////////
+

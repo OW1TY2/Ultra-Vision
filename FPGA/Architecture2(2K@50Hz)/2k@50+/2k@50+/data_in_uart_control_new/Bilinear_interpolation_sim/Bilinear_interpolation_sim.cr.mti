@@ -1,0 +1,216 @@
+D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/asyn_fifo/asyn_fifo.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/asyn_fifo/asyn_fifo.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module asyn_fifo
+-- Compiling module efx_fifo_datasync_af32f278b05841e694433ae28c490f52
+-- Compiling module efx_fifo_gray2bin_af32f278b05841e694433ae28c490f52
+-- Compiling module efx_fifo_bin2gray_af32f278b05841e694433ae28c490f52
+-- Compiling module efx_fifo_top_af32f278b05841e694433ae28c490f52
+-- Compiling module efx_fifo_ram_af32f278b05841e694433ae28c490f52
+-- Compiling module efx_fifo_ctl_af32f278b05841e694433ae28c490f52
+
+Top level modules:
+	asyn_fifo
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_lut4.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_lut4.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_LUT4
+
+Top level modules:
+	EFX_LUT4
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_add.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_add.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_ADD
+
+Top level modules:
+	EFX_ADD
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_mult.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_mult.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_MULT
+-- Compiling module INIT_MULT_FF
+
+Top level modules:
+	EFX_MULT
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dsp12.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dsp12.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_DSP12
+-- Compiling module EFX_DSP12_pipe
+-- Compiling module EFX_DSP12_mult
+-- Compiling module EFX_DSP12_extender
+-- Compiling module EFX_DSP12_shifter
+-- Compiling module EFX_DSP12_add_sub
+
+Top level modules:
+	EFX_DSP12
+
+} {} {}} D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/divider_ip/divider_ip.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/divider_ip/divider_ip.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module divider_ip
+-- Compiling module divider_9537ff6f30ef403b9e2edbf97aa62a86
+
+Top level modules:
+	divider_ip
+
+} {} {}} D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/my_bram_ip/my_bram_ip.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/my_bram_ip/my_bram_ip.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module my_bram_ip
+-- Compiling module efx_bram_f656f5dedc9e468aafbbd8c29bccb0b0
+-- Compiling module dpbram_primitive_f656f5dedc9e468aafbbd8c29bccb0b0
+-- Compiling module dpram_wrapper_mwm_f656f5dedc9e468aafbbd8c29bccb0b0
+-- Compiling module efx_true_dual_port_ram_f656f5dedc9e468aafbbd8c29bccb0b0
+
+Top level modules:
+	my_bram_ip
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ram_10k.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ram_10k.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_RAM_10K
+
+Top level modules:
+	EFX_RAM_10K
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dsp48.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dsp48.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_DSP48
+-- Compiling module EFX_DSP48_int
+-- Compiling module EFX_DSP48_float
+-- Compiling module EFX_DSP48_pipe
+-- Compiling module EFX_DSP48_mult_mode
+-- Compiling module EFX_DSP48_mult
+-- Compiling module EFX_DSP48_p_extender
+-- Compiling module EFX_DSP48_c_extender
+-- Compiling module EFX_DSP48_extender
+-- Compiling module EFX_DSP48_shifter_mode
+-- Compiling module EFX_DSP48_shifter
+-- Compiling module EFX_DSP48_add_sub_mode
+-- Compiling module EFX_DSP48_add_sub
+-- Compiling module f_mulAdd
+-- Compiling module fp_fmt_conv
+
+Top level modules:
+	EFX_DSP48
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ff.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ff.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_FF
+
+Top level modules:
+	EFX_FF
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_comb4.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_comb4.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_COMB4
+
+Top level modules:
+	EFX_COMB4
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ram_5k.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ram_5k.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_RAM_5K
+
+Top level modules:
+	EFX_RAM_5K
+
+} {} {}} D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv {2 {vlog -work work -vopt -sv -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module data_loader_tb
+** Warning: D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv(182): (vlog-2244) Variable 'img_file' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv(183): (vlog-2244) Variable 'ref_file_prefix' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv(185): (vlog-2244) Variable 'ref_file_count' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv(216): (vlog-2244) Variable 'img_file' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv(217): (vlog-2244) Variable 'ref_file_prefix' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+** Warning: D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_sim/tb/data_loader_tb.sv(219): (vlog-2244) Variable 'ref_file_count' is implicitly static. You must either explicitly declare it as static or automatic
+or remove the initialization in the declaration of variable.
+
+Top level modules:
+	data_loader_tb
+
+} {} {}} D:/FPGA_Competition/FPGAprojects/data_in_uart_control/rtl/Bilinear_interpolation_RGB_top.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/rtl/Bilinear_interpolation_RGB_top.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Bilinear_interpolation_RGB_top
+
+Top level modules:
+	Bilinear_interpolation_RGB_top
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ram10.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_ram10.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_RAM10
+
+Top level modules:
+	EFX_RAM10
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_srl8.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_srl8.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_SRL8
+
+Top level modules:
+	EFX_SRL8
+
+} {} {}} D:/FPGA_Competition/FPGAprojects/data_in_uart_control/rtl/HDMIdatain/data_loader.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/rtl/HDMIdatain/data_loader.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module data_loader
+
+Top level modules:
+	data_loader
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dpram_5k.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dpram_5k.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_DPRAM_5K
+
+Top level modules:
+	EFX_DPRAM_5K
+
+} {} {}} D:/FPGA_Competition/FPGAprojects/data_in_uart_control/rtl/Bilinear_interpolation/rgb_biliner.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/rtl/Bilinear_interpolation/rgb_biliner.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module rgb_biliner
+
+Top level modules:
+	rgb_biliner
+
+} {} {}} D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/data_in_fifo/data_in_fifo.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/FPGAprojects/data_in_uart_control/Bilinear_interpolation_prj/ip/data_in_fifo/data_in_fifo.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module data_in_fifo
+-- Compiling module efx_fifo_datasync_ac9a970141f64bf9914e9a48d4957631
+-- Compiling module efx_fifo_gray2bin_ac9a970141f64bf9914e9a48d4957631
+-- Compiling module efx_fifo_bin2gray_ac9a970141f64bf9914e9a48d4957631
+-- Compiling module efx_fifo_top_ac9a970141f64bf9914e9a48d4957631
+-- Compiling module efx_fifo_ram_ac9a970141f64bf9914e9a48d4957631
+-- Compiling module efx_fifo_ctl_ac9a970141f64bf9914e9a48d4957631
+
+Top level modules:
+	data_in_fifo
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_gbufce.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_gbufce.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_GBUFCE
+
+Top level modules:
+	EFX_GBUFCE
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dsp24.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dsp24.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_DSP24
+-- Compiling module EFX_DSP24_pipe
+-- Compiling module EFX_DSP24_mult
+-- Compiling module EFX_DSP24_extender
+-- Compiling module EFX_DSP24_shifter
+-- Compiling module EFX_DSP24_add_sub
+
+Top level modules:
+	EFX_DSP24
+
+} {} {}} D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dpram10.v {1 {vlog -work work -vopt -stats=none D:/FPGA_Competition/Endless_scaling/biliner_test3/Efinity_Origion/efx_dpram10.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module EFX_DPRAM10
+
+Top level modules:
+	EFX_DPRAM10
+
+} {} {}}

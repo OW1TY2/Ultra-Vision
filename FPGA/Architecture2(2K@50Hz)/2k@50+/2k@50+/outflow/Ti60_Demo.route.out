@@ -1,0 +1,213 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Compiled: May 19 2024.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Titanium", Device "Ti60F225" ...
+
+***** Beginning stage routing ... *****
+WARNING(1): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:28] No valid object(s) found for 'clk_20m'
+WARNING(2): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:28] No valid pin(s) found for clock
+WARNING(3): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:28] Unable to run 'create_clock' constraint due to warnings found
+WARNING(4): No ports matched 'i_dqs_n_lo[0]'
+WARNING(5): No ports matched 'i_dqs_n_hi[0]'
+WARNING(6): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:287] No valid object(s) found for ''
+WARNING(7): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:287] set_input_delay: No valid input port(s) found
+WARNING(8): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:287] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(9): No ports matched 'i_dqs_n_lo[0]'
+WARNING(10): No ports matched 'i_dqs_n_hi[0]'
+WARNING(11): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:288] No valid object(s) found for ''
+WARNING(12): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:288] set_input_delay: No valid input port(s) found
+WARNING(13): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:288] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(14): No ports matched 'i_dqs_n_lo[1]'
+WARNING(15): No ports matched 'i_dqs_n_hi[1]'
+WARNING(16): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:293] No valid object(s) found for ''
+WARNING(17): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:293] set_input_delay: No valid input port(s) found
+WARNING(18): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:293] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(19): No ports matched 'i_dqs_n_lo[1]'
+WARNING(20): No ports matched 'i_dqs_n_hi[1]'
+WARNING(21): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:294] No valid object(s) found for ''
+WARNING(22): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:294] set_input_delay: No valid input port(s) found
+WARNING(23): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:294] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc' parsed successfully.
+10 clocks (including virtual clocks), 36 inputs and 142 outputs were constrained.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Router Setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Setup Parallel Routing Scheduler]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Route Circuit with 32 threads
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CSS enabled! Optimizing clock skews ... 
+Non-legalized beneficial skew improved geomean CPD by 0.00% (from 1907ps to 1907ps)
+CSS improved CPD of clock tac_clk by -4.62% (from 1950ps to 2040ps)
+CSS improved CPD of clock twd_clk by 0.00% (from 1865ps to 1865ps)
+Discretized beneficial skew improved geomean CPD by -2.25% (from 1907ps to 1950ps in 4 iterations and 0.3 sec)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Iter  1: overlap=40771   heapops=5225171    (0%) cpd=3022  frr=1.00  msec=3939
+[Setup Delay Budgets | 449.6 ms]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hold Fixing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Total min wire delay:   1384186
+Hold fix wire delay:       1255
+Hold fix delay ratio:     0.09%
+Pins requiring hold fix:  0.01%
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Iter  2: overlap=6824    heapops=4052383    (42%) cpd=3022  frr=1.00  msec=1225
+Iter  3: overlap=1519    heapops=1609886    (72%) cpd=3022  frr=1.00  msec=764
+Iter  4: overlap=271     heapops=588353     (83%) cpd=3022  frr=1.00  msec=806
+[Rebuild Parallel Routing Scheduler]
+Iter  5: overlap=39      heapops=218348     (85%) cpd=3022  frr=1.00  msec=794
+Iter  6: overlap=29      heapops=208995     (87%) cpd=3022  frr=1.00  msec=912
+Iter  7: overlap=6       heapops=314317     (85%) cpd=3022  frr=1.00  msec=991
+Iter  8: overlap=9       heapops=63334      (85%) cpd=3022  frr=1.00  msec=576
+Iter  9: overlap=3       heapops=59239      (85%) cpd=3022  frr=1.00  msec=599
+Iter 10: overlap=3       heapops=63397      (85%) cpd=3022  frr=1.00  msec=566
+Iter 11: overlap=0       heapops=58861      (85%) cpd=3022  frr=1.00  msec=537
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Routing Result
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Routing Succeeded in 12.75 seconds taking 11 iterations! 
+
+First iteration critical path delay = 3.022 ns 
+Last iteration critical path delay  = 3.022 ns (ratio = 1.00)
+Max Routing Heap Size = 23,911
+Routing trace written to file 'C:/Users/32954/Desktop/fpga2/finaltry/1051/outflow/Ti60_Demo.troutingtraces' 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Routing took 16.9632 seconds.
+	Routing took 40.0781 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 674.324 MB, end = 1278.5 MB, delta = 604.172 MB
+	Routing peak virtual memory usage = 2728.65 MB
+Routing resident set memory usage: begin = 633.004 MB, end = 1187.35 MB, delta = 554.348 MB
+	Routing peak resident set memory usage = 2660.98 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+WARNING(24): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:28] No valid object(s) found for 'clk_20m'
+WARNING(25): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:28] No valid pin(s) found for clock
+WARNING(26): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:28] Unable to run 'create_clock' constraint due to warnings found
+WARNING(27): No ports matched 'i_dqs_n_lo[0]'
+WARNING(28): No ports matched 'i_dqs_n_hi[0]'
+WARNING(29): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:287] No valid object(s) found for ''
+WARNING(30): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:287] set_input_delay: No valid input port(s) found
+WARNING(31): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:287] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(32): No ports matched 'i_dqs_n_lo[0]'
+WARNING(33): No ports matched 'i_dqs_n_hi[0]'
+WARNING(34): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:288] No valid object(s) found for ''
+WARNING(35): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:288] set_input_delay: No valid input port(s) found
+WARNING(36): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:288] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(37): No ports matched 'i_dqs_n_lo[1]'
+WARNING(38): No ports matched 'i_dqs_n_hi[1]'
+WARNING(39): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:293] No valid object(s) found for ''
+WARNING(40): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:293] set_input_delay: No valid input port(s) found
+WARNING(41): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:293] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(42): No ports matched 'i_dqs_n_lo[1]'
+WARNING(43): No ports matched 'i_dqs_n_hi[1]'
+WARNING(44): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:294] No valid object(s) found for ''
+WARNING(45): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:294] set_input_delay: No valid input port(s) found
+WARNING(46): [SDC C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc:294] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'C:/Users/32954/Desktop/fpga2/finaltry/1051/Ti60_Demo.pt.sdc' parsed successfully.
+10 clocks (including virtual clocks), 36 inputs and 142 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+tdqss_clk       1.859        537.924         (R-R)
+core_clk        3.666        272.777         (R-R)
+tac_clk         2.172        460.405         (R-R)
+twd_clk         1.936        516.529         (R-R)
+clk_pixel_2x    4.775        209.424         (R-R)
+clk_96m         6.849        146.007         (R-R)
+
+Geomean max period: 3.128
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            2.315            0.456           (R-R)
+  tdqss_clk        core_clk             2.315            1.705           (R-R)
+  core_clk         tdqss_clk            2.315            0.935           (R-R)
+  core_clk         core_clk             4.630            0.964           (R-R)
+  core_clk         tac_clk              2.315            1.452           (R-R)
+  core_clk         twd_clk              0.579            0.258           (R-R)
+  core_clk         clk_96m              0.001           -0.649           (R-R)
+  tac_clk          core_clk             2.315            1.032           (R-R)
+  tac_clk          tac_clk              2.315            0.143           (R-R)
+  tac_clk          clk_96m              0.001           -0.728           (R-R)
+  twd_clk          core_clk             1.736           -0.006           (R-R)
+  twd_clk          twd_clk              2.315            0.379           (R-R)
+  twd_clk          clk_96m              0.001           -0.726           (R-R)
+  clk_pixel_2x     clk_pixel_2x         6.667            1.892           (R-R)
+  clk_pixel        clk_pixel_2x         0.001           -1.774           (R-R)
+  clk_96m          core_clk             0.001           -0.622           (R-R)
+  clk_96m          tac_clk              0.001           -0.548           (R-R)
+  clk_96m          twd_clk              0.001           -0.574           (R-R)
+  clk_96m          clk_96m             10.417            3.568           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            0.000           0.092            (R-R)
+  tdqss_clk        core_clk             0.000           0.127            (R-R)
+  core_clk         tdqss_clk            0.000           0.063            (R-R)
+  core_clk         core_clk             0.000           0.024            (R-R)
+  core_clk         tac_clk              0.000           0.260            (R-R)
+  core_clk         twd_clk             -1.736           1.799            (R-R)
+  core_clk         clk_96m              0.000           0.078            (R-R)
+  tac_clk          core_clk             0.000           0.328            (R-R)
+  tac_clk          tac_clk              0.000           0.026            (R-R)
+  tac_clk          clk_96m              0.000           0.011            (R-R)
+  twd_clk          core_clk            -0.579           0.901            (R-R)
+  twd_clk          twd_clk              0.000           0.074            (R-R)
+  twd_clk          clk_96m              0.000           0.012            (R-R)
+  clk_pixel_2x     clk_pixel_2x         0.000           0.092            (R-R)
+  clk_pixel        clk_pixel_2x         0.000           0.313            (R-R)
+  clk_96m          core_clk             0.000           0.016            (R-R)
+  clk_96m          tac_clk              0.000           0.018            (R-R)
+  clk_96m          twd_clk              0.000           0.055            (R-R)
+  clk_96m          clk_96m              0.000           0.035            (R-R)
+
+WARNING(47): Clock domain between core_clk (rising) and clk_96m (rising) may not meet (slack: -0.649 ns) the setup (max) timing requirement
+WARNING(48): Clock domain between tac_clk (rising) and clk_96m (rising) may not meet (slack: -0.728 ns) the setup (max) timing requirement
+WARNING(49): Clock domain between twd_clk (rising) and core_clk (rising) may not meet (slack: -0.006 ns) the setup (max) timing requirement
+WARNING(50): Clock domain between twd_clk (rising) and clk_96m (rising) may not meet (slack: -0.726 ns) the setup (max) timing requirement
+WARNING(51): Clock domain between clk_pixel (rising) and clk_pixel_2x (rising) may not meet (slack: -1.774 ns) the setup (max) timing requirement
+WARNING(52): Clock domain between clk_96m (rising) and core_clk (rising) may not meet (slack: -0.622 ns) the setup (max) timing requirement
+WARNING(53): Clock domain between clk_96m (rising) and tac_clk (rising) may not meet (slack: -0.548 ns) the setup (max) timing requirement
+WARNING(54): Clock domain between clk_96m (rising) and twd_clk (rising) may not meet (slack: -0.574 ns) the setup (max) timing requirement
+
+Write Timing Report to "C:/Users/32954/Desktop/fpga2/finaltry/1051/outflow\Ti60_Demo.timing.rpt" ...
+final timing analysis took 6.63972 seconds.
+	final timing analysis took 6.4375 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 1278.3 MB, end = 1484.54 MB, delta = 206.232 MB
+	final timing analysis peak virtual memory usage = 2728.65 MB
+final timing analysis resident set memory usage: begin = 1187.37 MB, end = 1379.82 MB, delta = 192.452 MB
+	final timing analysis peak resident set memory usage = 2660.98 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'C:/Users/32954/Desktop/fpga2/finaltry/1051/outflow/Ti60_Demo.interface.csv'.
+Successfully processed interface constraints file "C:/Users/32954/Desktop/fpga2/finaltry/1051/outflow/Ti60_Demo.interface.csv".
+Finished writing bitstream file C:/Users/32954/Desktop/fpga2/finaltry/1051/work_pnr\Ti60_Demo.lbf.
+Bitstream generation took 5.32342 seconds.
+	Bitstream generation took 5.25 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 1484.54 MB, end = 1609.08 MB, delta = 124.544 MB
+	Bitstream generation peak virtual memory usage = 2728.65 MB
+Bitstream generation resident set memory usage: begin = 1379.86 MB, end = 1505.79 MB, delta = 125.932 MB
+	Bitstream generation peak resident set memory usage = 2660.98 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 106.433 seconds.
+	The entire flow of EFX_PNR took 160.891 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.676 MB, end = 907.508 MB, delta = 901.832 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2728.65 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 13.752 MB, end = 850.552 MB, delta = 836.8 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2660.98 MB

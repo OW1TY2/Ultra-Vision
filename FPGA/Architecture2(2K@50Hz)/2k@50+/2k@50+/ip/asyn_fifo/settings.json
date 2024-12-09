@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "asyn_fifo",
+        "--base_path",
+        "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "4",
+        "DATA_WIDTH": "11",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "14",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "13",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TITANIUM\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\asyn_fifo.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\asyn_fifo_tmpl.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\asyn_fifo_define.vh",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\asyn_fifo_tmpl.vhd"
+        ],
+        "external_example_example": [
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo_top.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\T20F256_devkit\\asyn_fifo.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\T20F256_devkit\\asyn_fifo_define.vh",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo.peri.xml",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo_top.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Ti60F225_devkit\\asyn_fifo.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Ti60F225_devkit\\asyn_fifo_define.vh",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Testbench\\fifo_tb.sv",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Testbench\\xrun.sh",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Testbench\\msim.sh",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Testbench\\flist",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Testbench\\modelsim.do",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Testbench\\asyn_fifo.v",
+            "C:\\Users\\32954\\Desktop\\102015hz4ktry\\1051\\ip\\asyn_fifo\\Testbench\\asyn_fifo_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-21T13:50:09.842926"
+}
