@@ -1,0 +1,460 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Date: Thu Nov 28 16:28:33 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: Ti60_Demo
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 81 / 1703 (4.76%)
+Outputs: 249 / 2267 (10.98%)
+Global Clocks (GBUF): 12 / 32 (37.50%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 17304 / 60800 (28.46%)
+	XLRs needed for Logic: 6092 / 60800 (10.02%)
+	XLRs needed for Logic + FF: 2984 / 60800 (4.91%)
+	XLRs needed for Adder: 1484 / 60800 (2.44%)
+	XLRs needed for Adder + FF: 1786 / 60800 (2.94%)
+	XLRs needed for FF: 3438 / 60800 (5.65%)
+	XLRs needed for SRL8: 1520 / 14720 (10.33%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 232 / 256 (90.62%)
+DSP Blocks: 137 / 160 (85.62%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 137
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 137
+
+---------- DSP Packer Summary (end) ----------
+
+
+---------- DSP48 Block Information (begin) ----------
+
++----------------------------------------------------------------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+|                                             NAME                                             |  MODE  | SIGNED | SHIFTER | M_SEL |    N_SEL     | W_SEL | CASCOUT_SEL |
++----------------------------------------------------------------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_21                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                                           mult_74                                            | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_22                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_23                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_24                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_25                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_26                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_27                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_28                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_29                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_30                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_31                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_32                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_33                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_34                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_35                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_36                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_54                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_55                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_56                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                       u_data_in_uart_control_top/rgb_bicubic_u/mult_57                       | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3826_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3869_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3912_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3955_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_736                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_737                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_738                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_739                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_740                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_741                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_742                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_743                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_744                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_745                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_746                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_747                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_748                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_749                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_750                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                 u_data_in_uart_control_top/rgb_bicubic_u/red_interp/mult_751                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3826_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3869_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3912_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|               u_data_in_uart_control_top/rgb_bicubic_u/red_interp/n3955_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3826_pp_0x0              | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3869_pp_0x0              | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3912_pp_0x0              | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3955_pp_0x0              | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_736                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_737                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_738                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_739                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_740                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_741                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_742                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_743                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_744                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_745                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_746                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_747                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_748                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_749                | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_750                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/green_interp/mult_751                | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3826_pp_1x0              | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3869_pp_1x0              | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3912_pp_1x0              | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/green_interp/n3955_pp_1x0              | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3826_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3869_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3912_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3955_pp_0x0               | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_736                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_737                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_738                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_739                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_740                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_741                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_742                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_743                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_744                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_745                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_746                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_747                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_748                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_749                 | NORMAL | false  |  false  |   P   |    CASCIN    |   X   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_750                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|                u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/mult_751                 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3826_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3869_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3912_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|              u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/n3955_pp_1x0               | NORMAL | false  |  false  |   P   | CASCIN_LSR18 |   X   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y3_inst/mul_4_y3_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y3_inst/mul_4_y3_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y3_inst/mul_4_y3_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y3_inst/mul_3_y3_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y3_inst/mul_3_y3_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y3_inst/mul_2_y3_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y2_inst/mul_4_y2_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y2_inst/mul_4_y2_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y2_inst/mul_4_y2_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y2_inst/mul_3_y2_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y2_inst/mul_3_y2_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y1_inst/mul_4_y1_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y1_inst/mul_4_y1_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y1_inst/mul_4_y1_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y1_inst/mul_3_y1_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y1_inst/mul_3_y1_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y0_inst/mul_4_y0_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y0_inst/mul_4_y0_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y0_inst/mul_4_y0_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y0_inst/mul_3_y0_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y0_inst/mul_3_y0_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_y0_inst/mul_2_y0_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x3_inst/mul_4_x3_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x3_inst/mul_4_x3_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x3_inst/mul_4_x3_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x3_inst/mul_3_x3_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x3_inst/mul_3_x3_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x3_inst/mul_2_x3_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x2_inst/mul_4_x2_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x2_inst/mul_4_x2_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x2_inst/mul_4_x2_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x2_inst/mul_3_x2_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x2_inst/mul_3_x2_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x1_inst/mul_4_x1_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x1_inst/mul_4_x1_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x1_inst/mul_4_x1_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x1_inst/mul_3_x1_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x1_inst/mul_3_x1_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/mult_14   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/mult_21   | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_3_x0_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+| u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_3_x0_inst/n115_pp_0x0 | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
+|   u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_2_x0_inst/mult_6    | NORMAL | false  |  false  |   P   |      C       |   P   |      P      |
++----------------------------------------------------------------------------------------------+--------+--------+---------+-------+--------------+-------+-------------+
+
+----------- DSP48 Block Information (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                                         NAME                                                          | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$b12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$c12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$d12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$e12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$f12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$g1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|   ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$2   | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$b12  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$12   | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$c12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$d12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$e12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$f1   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/ram            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$b1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$c1  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$b12 | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$12  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$2  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|            u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$02             | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3b12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0b12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|            u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$012            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|            u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$32             | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0c12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0d12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0e12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0f12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0g12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0h12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0i12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0j12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0k12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0l12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0m12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0n12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0o12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0p12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0q12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0r12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0s12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0t12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0u12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0v12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|            u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$0w1            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|            u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$312            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3c12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3d12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3e12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3f12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3g12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3h12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3i12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3j12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3k12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3l12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3m12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3n12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3o12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3p12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3q12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3r12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3s12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3t12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3u12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|           u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3v12            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|            u_data_in_uart_control_top/data_loader_u/u_data_in_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$3w1            | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|         u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2         | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12         | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$g12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$h12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$i12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$j1         | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$g12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$h12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$i12       | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$j1        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$2         | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$g12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$h12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|       u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$i12        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|        u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_asyn_fifo/u_efx_fifo_top/xefx_fifo_ram/ram__D$j1        | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                            u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                             | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$j12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$h12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$i12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$g12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$k12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$l12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$m12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$n12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                            u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$o1                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                            u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                             | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                            u_axi4_ctrl/u_W0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                            | SDP  |     8      |      2      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                            u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$g12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$h12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$i12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$j12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
+|                           u_axi4_ctrl/u_R0_FIFO_32/u_efx_fifo_top/xefx_fifo_ram/ram__D$k12                            | SDP  |     2      |      8      | READ_UNKNOWN |   false    |
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- True Dual Port RAM Information (begin) ----------
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+|                                                                                 NAME                                                                                 | MODE | READ_WIDTH_A | WRITE_WIDTH_A | WRITE_MODE_A | OUTPUT_REG_A | READ_WIDTH_B | WRITE_WIDTH_B | WRITE_MODE_B | OUTPUT_REG_B |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u11_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u11_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u12_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u12_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u13_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u13_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u14_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u14_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u21_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u21_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u22_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u22_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u23_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u23_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u24_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u24_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u31_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u31_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u32_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u32_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u33_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u33_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u34_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u34_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u41_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u41_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u42_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u42_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u43_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u43_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u44_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+|  u_data_in_uart_control_top/rgb_bicubic_u/red_interp/u_my16bram/u44_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u11_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u11_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u12_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u12_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u13_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u13_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u14_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u14_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u21_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u21_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u22_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u22_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u23_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u23_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u24_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u24_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u31_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u31_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u32_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u32_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u33_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u33_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u34_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u34_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u41_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u41_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u42_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u42_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u43_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u43_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u44_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/green_interp/u_my16bram/u44_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u11_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u11_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u12_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u12_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u13_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u13_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u14_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u14_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u21_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u21_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u22_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u22_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u23_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u23_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u24_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u24_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u31_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u31_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u32_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u32_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u33_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u33_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u34_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u34_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u41_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u41_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u42_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u42_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u43_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u43_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u44_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[1].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
+| u_data_in_uart_control_top/rgb_bicubic_u/blue_interp/u_my16bram/u44_my_bram_ip/u_efx_bram/genblk1.tdpram_inst/brams/scan_row.row[0].column[0].bram/genblk1.dpram10k  | TDP  |      5       |       5       |  READ_FIRST  |    false     |      5       |       5       |  READ_FIRST  |    false     |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+------+--------------+---------------+--------------+--------------+--------------+---------------+--------------+--------------+
+
+----------- True Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|         clk_6m         |    Input     |
+|        clk_75m         |    Input     |
+|     hdmi_sda_io_IN     |    Input     |
+|     i_dqs_n_lo[1]      |    Input     |
+|     i_dqs_n_hi[1]      |    Input     |
+|     i_dqs_n_lo[0]      |    Input     |
+|     i_dqs_n_hi[0]      |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 59 seconds

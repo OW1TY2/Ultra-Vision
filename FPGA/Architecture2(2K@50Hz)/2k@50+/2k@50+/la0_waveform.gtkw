@@ -1,0 +1,31 @@
+[dumpfile] "C:\Users\32954\AppData\Local\Temp\tmpt5jk3v2k\tmp_continous.vcd"
+[dumpfile_mtime] "Sat Nov 23 09:50:43 2024"
+[dumpfile_size] 63182
+[savefile] "C:\Users\32954\Desktop\fpga2\2k_bicubic_@16.8_nopai_mode3\1051\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 128 384 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.\u_data_in_uart_control_top/rgb_bicubic_u/red_interp/x_dec[26:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/red_interp/y_dec[26:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/red_interp/post_img_gray[7:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/red_interp/post_img_href
+top.\u_data_in_uart_control_top/rgb_bicubic_u/bi_x0_c10[16:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_add_2_d[17:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/BiCubic_1_3[37:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/BiCubic_1_4[39:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/BiCubic_1_2[27:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/b[9:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/result[39:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/result0_c2[19:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/c[9:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/d_c1[9:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/a[9:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/result1_c2[19:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/d[9:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/c_c1[9:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/result4_c3[39:0]
+top.\u_data_in_uart_control_top/rgb_bicubic_u/u_BiCubic/BiCubic_x0_inst/mul_4_x0_inst/result0[19:0]

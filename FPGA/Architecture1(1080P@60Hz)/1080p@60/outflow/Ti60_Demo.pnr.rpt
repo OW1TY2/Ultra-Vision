@@ -1,0 +1,118 @@
+
+---------- Resource Summary (begin) ----------
+Inputs: 81 / 1703 (4.76%)
+Outputs: 249 / 2267 (10.98%)
+Global Clocks (GBUF): 12 / 32 (37.50%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 17304 / 60800 (28.46%)
+	XLRs needed for Logic: 6092 / 60800 (10.02%)
+	XLRs needed for Logic + FF: 2984 / 60800 (4.91%)
+	XLRs needed for Adder: 1484 / 60800 (2.44%)
+	XLRs needed for Adder + FF: 1786 / 60800 (2.94%)
+	XLRs needed for FF: 3438 / 60800 (5.65%)
+	XLRs needed for SRL8: 1520 / 14720 (10.33%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 232 / 256 (90.62%)
+DSP Blocks: 137 / 160 (85.62%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 137
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 137
+
+---------- DSP Packer Summary (end) ----------
+
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++-----------------+----------+----------+
+|    Clock Net    | GBUFCE_X | GBUFCE_Y |
++-----------------+----------+----------+
+|    clk_100m     |    1     |   164    |
+|     clk_24m     |   106    |   322    |
+|     clk_96m     |    1     |   162    |
+|    clk_pixel    |   111    |    1     |
+|  clk_pixel_10x  |   218    |   159    |
+|  clk_pixel_2x   |   218    |   164    |
+|     clk_sys     |   110    |    1     |
+|    core_clk     |   112    |    1     |
+| ddr_pll_CLKOUT4 |   104    |    1     |
+|   hdmi_pclk_i   |    1     |   165    |
+|     tac_clk     |   108    |    1     |
+|    tdqss_clk    |   109    |    1     |
+|     twd_clk     |   107    |    1     |
++-----------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+
+
+---------- Resource Summary (begin) ----------
+Inputs: 81 / 1703 (4.76%)
+Outputs: 249 / 2267 (10.98%)
+Global Clocks (GBUF): 12 / 32 (37.50%)
+Regional Clocks (RBUF): 1 / 32 (3.12%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 1 / 8 (12.50%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 17304 / 60800 (28.46%)
+	XLRs needed for Logic: 6092 / 60800 (10.02%)
+	XLRs needed for Logic + FF: 2984 / 60800 (4.91%)
+	XLRs needed for Adder: 1484 / 60800 (2.44%)
+	XLRs needed for Adder + FF: 1786 / 60800 (2.94%)
+	XLRs needed for FF: 3438 / 60800 (5.65%)
+	XLRs needed for SRL8: 1520 / 14720 (10.33%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 232 / 256 (90.62%)
+DSP Blocks: 137 / 160 (85.62%)
+---------- Resource Summary (end) ----------
+
+
+---------- DSP Packer Summary (begin) ----------
+
+	DSP48 blocks required to legally pack design: 137
+	DSP48 blocks recoverable by optimizing:
+		-> DSP24/12 control signals & parameters: 0
+	Best case scenario DSP count after optimizing: 137
+
+---------- DSP Packer Summary (end) ----------
+
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++-----------------+----------+----------+
+|    Clock Net    | GBUFCE_X | GBUFCE_Y |
++-----------------+----------+----------+
+|    clk_100m     |    1     |   164    |
+|     clk_24m     |   106    |   322    |
+|     clk_96m     |    1     |   162    |
+|    clk_pixel    |   111    |    1     |
+|  clk_pixel_10x  |   218    |   159    |
+|  clk_pixel_2x   |   218    |   164    |
+|     clk_sys     |   110    |    1     |
+|    core_clk     |   112    |    1     |
+| ddr_pll_CLKOUT4 |   104    |    1     |
+|   hdmi_pclk_i   |    1     |   165    |
+|     tac_clk     |   108    |    1     |
+|    tdqss_clk    |   109    |    1     |
+|     twd_clk     |   107    |    1     |
++-----------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+

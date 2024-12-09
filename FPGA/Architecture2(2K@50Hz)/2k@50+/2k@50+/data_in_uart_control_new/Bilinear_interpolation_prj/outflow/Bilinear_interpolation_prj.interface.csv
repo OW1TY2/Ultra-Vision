@@ -1,0 +1,50 @@
+
+# Efinity Interface Configuration
+# Version: 2023.2.307
+# Date: 2024-10-07 15:25
+
+# Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+output, 0, 267, 0, __bypass__, adv7611_rstn
+input, 202, 323, 3, __bypass__, fpga_rxd_0
+input, 0, 315, 3, __bypass__, fpga_rxd_1
+output, 198, 323, 0, __bypass__, fpga_txd_0
+output, 219, 310, 2, __bypass__, fpga_txd_1
+input, 0, 260, 3, __bypass__, hdmi_hsync_i
+input, 0, 248, 3, __bypass__, hdmi_pix_clk_i
+input, 0, 260, 1, __bypass__, hdmi_pix_en_i
+input, 0, 173, 1, __bypass__, hdmi_RGB_data_i[0]
+input, 0, 173, 3, __bypass__, hdmi_RGB_data_i[1]
+input, 0, 134, 1, __bypass__, hdmi_RGB_data_i[2]
+input, 0, 134, 3, __bypass__, hdmi_RGB_data_i[3]
+input, 0, 64, 3, __bypass__, hdmi_RGB_data_i[4]
+input, 0, 65, 1, __bypass__, hdmi_RGB_data_i[5]
+input, 0, 196, 3, __bypass__, hdmi_RGB_data_i[6]
+input, 0, 197, 1, __bypass__, hdmi_RGB_data_i[7]
+input, 0, 184, 3, __bypass__, hdmi_RGB_data_i[8]
+input, 0, 185, 1, __bypass__, hdmi_RGB_data_i[9]
+input, 0, 227, 1, __bypass__, hdmi_RGB_data_i[10]
+input, 0, 227, 3, __bypass__, hdmi_RGB_data_i[11]
+input, 0, 209, 3, __bypass__, hdmi_RGB_data_i[12]
+input, 0, 210, 1, __bypass__, hdmi_RGB_data_i[13]
+input, 0, 75, 1, __bypass__, hdmi_RGB_data_i[14]
+input, 0, 75, 3, __bypass__, hdmi_RGB_data_i[15]
+input, 0, 100, 3, __bypass__, hdmi_RGB_data_i[16]
+input, 0, 101, 1, __bypass__, hdmi_RGB_data_i[17]
+input, 0, 150, 1, __bypass__, hdmi_RGB_data_i[18]
+input, 0, 150, 3, __bypass__, hdmi_RGB_data_i[19]
+input, 0, 116, 3, __bypass__, hdmi_RGB_data_i[20]
+input, 0, 117, 1, __bypass__, hdmi_RGB_data_i[21]
+input, 0, 50, 3, __bypass__, hdmi_RGB_data_i[22]
+input, 0, 51, 1, __bypass__, hdmi_RGB_data_i[23]
+output, 0, 278, 0, __bypass__, hdmi_scl_o
+input, 0, 284, 3, __bypass__, hdmi_sda_io_IN
+output, 0, 283, 2, __bypass__, hdmi_sda_io_OE
+output, 0, 280, 2, __bypass__, hdmi_sda_io_OUT
+input, 0, 248, 1, __bypass__, hdmi_vsync_i
+optional input, 0, 313, 3, __bypass__, sys_clk_24M
+input, 0, 312, 1, __bypass__, sys_rst_n
+input, 0, 163, 1, __bypass__, ~biliner_clk_in
+input, 0, 159, 1, __bypass__, ~biliner_clk_out
+input, 0, 162, 1, __bypass__, ~sys_clk_96M

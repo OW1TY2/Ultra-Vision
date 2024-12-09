@@ -1,0 +1,56 @@
+{
+    "args": [
+        "-o",
+        "divider_ip",
+        "--base_path",
+        "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "arithmetic",
+            "name": "efx_divider",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "NREPRESENTATION": "\"UNSIGNED\"",
+        "WIDTHN": "27",
+        "WIDTHD": "12",
+        "DREPRESENTATION": "\"UNSIGNED\"",
+        "PIPELINE": "1'b0",
+        "LATENCY": "27"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\divider_ip_tmpl.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\divider_ip.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\divider_ip_define.vh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\divider_ip_tmpl.vhd"
+        ],
+        "external_example_example": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\T20F256_devkit\\demo_divider.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\T20F256_devkit\\example_divider_T20.sdc",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\T20F256_devkit\\divider_ip.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\T20F256_devkit\\divider_ip_define.vh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\T20F256_devkit\\divider.peri.xml",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\T20F256_devkit\\divider.xml"
+        ],
+        "external_example_2": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Ti60F225_devkit\\demo_divider.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Ti60F225_devkit\\example_divider_Ti60.sdc",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Ti60F225_devkit\\divider_ip.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Ti60F225_devkit\\divider_ip_define.vh",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Ti60F225_devkit\\divider.peri.xml",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Ti60F225_devkit\\divider.xml"
+        ],
+        "external_testbench_testbench": [
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Testbench\\tb_divider.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Testbench\\demo_divider.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Testbench\\modelsim.do",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Testbench\\divider_ip.v",
+            "D:\\FPGA_Competition\\FPGAprojects\\data_in_uart_control\\Bilinear_interpolation_prj\\ip\\divider_ip\\Testbench\\divider_ip_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-05T03:52:31.058735"
+}
