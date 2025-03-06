@@ -1,4 +1,4 @@
-# 所有工程已经上传完毕，一些说明文档还在整理
+![这是图片](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/UltraVision.jpeg)  
 
 路演演示视频：[【FPGA创新设计竞赛】2024年国一+易灵思企业杯获奖作品——基于Ti60F225的无极缩放算法实现](https://www.bilibili.com/video/BV1WjzsY2E4v/?p=1&unique_k=114514) 
 
