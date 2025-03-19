@@ -219,6 +219,8 @@ BLOCK的切换由代表一帧HDMI输入/插值算法输出结束的process_vs下
 
 ![1080p@60VGA时序参数](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/1080p@60VGA时序参数.png) 
 
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/Floatkyun/Ultra-Vision.svg?variant=adaptive)](https://starchart.cc/Floatkyun/Ultra-Vision)
 
 
 
