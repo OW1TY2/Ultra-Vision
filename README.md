@@ -1,9 +1,9 @@
-![这是图片](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/UltraVision.jpeg)  
+![这是图片](img/UltraVision.jpeg)  
 
 路演演示视频：[【FPGA创新设计竞赛】2024年国一+易灵思企业杯获奖作品——基于Ti60F225的无极缩放算法实现](https://www.bilibili.com/video/BV1WjzsY2E4v/?p=1&unique_k=114514) 
 
 # 作品实物图
-![系统整体照片](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/系统整体照片.png) 
+![系统整体照片](img/系统整体照片.png) 
 
 
 
@@ -11,15 +11,15 @@
 # Ultra-Vision 作品海报
 架构设计与性能：
 
-![架构设计与性能](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/架构设计.jpg) 
+![架构设计与性能](img/架构设计.jpg) 
 
 作品亮点：
 
-![作品亮点](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/作品亮点%20.jpg) 
+![作品亮点](img/作品亮点%20.jpg) 
 
 算法细节：
 
-![算法细节](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/算法细节.jpg) 
+![算法细节](img/算法细节.jpg) 
 
 # 1. 作品简介
 
@@ -70,7 +70,7 @@
 
 ### 2.1.1 设计1整体介绍
 
-![设计1总体框图](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/设计1总体框图.png) 
+![设计1总体框图](img/设计1总体框图.png) 
 
 #### 2.1.1.1 控制模块
 为了给本系统提供更多元的控制方式、更友好的人机交互方式，这里选择通过串口通信的方式为数据处理模块传输目标放大尺寸和选择使用的缩放算法。控制上位机是STM32H743XIH6单片机，其通过LVGL图形库构建的GUI实现人机交互，可以实时调整和显示缩放后的图形尺寸，并且内置了四个预设缩放动画供现场展示。
@@ -98,15 +98,15 @@ Ti60F225核心板上有一颗DDR，FPGA通过Axi4总线与其进行数据传输�
 
 #### 2.1.2.1 控制模块（设计1）
 
-![控制模块结构框图](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/控制模块结构框图.png) 
+![控制模块结构框图](img/控制模块结构框图.png) 
 
 控制模块的结构框图如上图所示，其由integer_devider、uart_receiver和uart_control这三个子模块组成，其中integer_devider将输入时钟进行分频以匹配串口通信时的波特率；uart_receiver负责接受串口的串行输入并以字节为单位输出收到的信息；uart_control可以解码收到的信息，该模块可以从中解码出缩放尺寸中的长和宽（以像素为单位）以及缩放所用的算法，为了加强控制模块的鲁棒性避免通信受到干扰，这里还为数据包设置了额外的报头校验。
 
-![上位机控制结构框图](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/上位机控制结构框图.png) 
+![上位机控制结构框图](img/上位机控制结构框图.png) 
 
 控制模块接受来自上位机的串口通信，这里使用H743XIH6高性能单片机作为上位机，负责用户图形界面的渲染和串口发送控制信息，其中的控制算法负责处理不同控制模式之间的切换和四种不同缩动画的实时计算，确保在不同控制模式和缩放动画之间切换时仍保持输出动画的连续和流畅。
 
-![图形界面实拍图](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/图形界面实拍图.png) 
+![图形界面实拍图](img/图形界面实拍图.png) 
 
 人机交互图形界面的实拍图如上图所示，图形界面的渲染帧率为30Hz，并搭配精心设计的模式切换动画，可以提供极佳的交互体验。界面中可以调整视频的输出格式（实际也需要手动切换至对应输出格式的FPGA固件才可生效），调整缩放采用的插值算法（图中为两种算法可选，实际还有双三次插值算法），调整可缩放的最大宽度和最小宽度，以及演示的非线性动画类型。
 
@@ -116,13 +116,13 @@ Ti60F225核心板上有一颗DDR，FPGA通过Axi4总线与其进行数据传输�
 
 #### 2.1.2.2 HDMI输入模块（设计1）
 
-![HDMI输入模块主要信号结构图（设计1）](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/HDMI输入模块主要信号结构图（设计1）.png) 
+![HDMI输入模块主要信号结构图（设计1）](img/HDMI输入模块主要信号结构图（设计1）.png) 
 
 HDMI输入模块由i2c时序控制模块（i2c_timing_ctrl），ADV7611寄存器配置模块（ADV7611_Config），HDMI输入子卡（硬件），DDR（硬件）以及AXI4总线模块（axi4_ctrl，axi4_mux）组成。
 
 其中，ADV7611寄存器配置模块中存储着HDMI信号传输所需的EDID配置信息以及ADV7611芯片其他寄存器信息。i2c时序控制模块依据index信号和size信号按顺序从其中读取寄存器配置，并按照i2c总线协议输入进子卡的ADV7611芯片中，完成初始化，并将ADV7611初始化完成信号置高。时钟与复位信号由锁相环输入。
 
-![EDID中640×480@60对应的DTD信息](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/EDID%E4%B8%AD640%C3%97480%4060%E5%AF%B9%E5%BA%94%E7%9A%84DTD%E4%BF%A1%E6%81%AF.png) 
+![EDID中640×480@60对应的DTD信息](img/EDID%E4%B8%AD640%C3%97480%4060%E5%AF%B9%E5%BA%94%E7%9A%84DTD%E4%BF%A1%E6%81%AF.png) 
 
 之后，HDMI输入子卡将输入的HDMI信号解码，输出像素时钟（hdmi_pclk）、场信号（hdmi_vs）、数据有效信号（hdmi_de）以及像素RGB888信号（hdmi_data[31:0]），其中场信号hdmi_vs用于指示一帧视频图像的结束，写地址切换回初始地址。像素RGB888信号高8位补零，32位以对齐DDR输入位宽。通过AXI总线，将有效数据同步存储进DDR中。在读数据一侧，AXI总线接收读时钟（data_read_clk），反读场信号（~data_read_vs），读有效（data_read_en），并同步输出有效像素信号。场信号用于指示一帧的结束。
 
@@ -132,7 +132,7 @@ DDR通过Efinity提供的ip核进行配置。时钟与复位信号由锁相环�
 
 #### 2.1.2.3 数据处理模块（设计1）
 
-![数据处理模块主要信号结构图（设计1）](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/数据处理模块主要信号结构图（设计1）.png) 
+![数据处理模块主要信号结构图（设计1）](img/数据处理模块主要信号结构图（设计1）.png) 
 
 数据处理模块由数据修饰模块（data_driver）与插值算法模块（rgb_biliner）组成。
 由于DDR中存储的为纯数据，故需要数据修饰模块重新标志其行，场信号。数据修饰模块通过行列计数器，将从DDR中读取的信号按640*480重新标志行，场信号，标记每一行，每一帧的开始与结束，便于插值算法有序运行。数据修饰模块输出完成一行数据后进入待机状态（计数器停止计数）；当输出FIFO传递的数据请求信号（fifo_in_req）为高且在待机时，计数器开始计数直到完成一行。
@@ -146,7 +146,7 @@ DDR通过Efinity提供的ip核进行配置。时钟与复位信号由锁相环�
 
 #### 2.1.2.4 HDMI输出模块（设计1）
 
-![HDMI输出模块主要信号结构图（设计1）](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/HDMI输出模块主要信号结构图（设计1）.png) 
+![HDMI输出模块主要信号结构图（设计1）](img/HDMI输出模块主要信号结构图（设计1）.png) 
 
 HDMI输出模块由输出缓冲模块（FIFO_to_hdmi），输出渲染模块（hdmi_driver），HDMI差分输出驱动模块（rgb2dvi）以及尺寸对齐模块（Size_delay）组成。
 
@@ -154,7 +154,7 @@ HDMI输出模块由输出缓冲模块（FIFO_to_hdmi），输出渲染模块（h
 
 由于中间流水，数据进入输出缓冲到数据从输出缓冲中读出有若干时钟周期延时，且整张图像的大小远大于缓冲区深度。插值算法的目标缩放尺寸先于输出渲染的目标缩放尺寸变化，且时间差不超过一帧。在进行某一帧的输出渲染时，目标长宽应保持稳定，故以输出场信号作为触发（代表某一帧渲染完成），同步将输出目标长宽更新为算法目标缩放尺寸。
 
-![尺寸对齐主要操作](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/尺寸对齐主要操作.png) 
+![尺寸对齐主要操作](img/尺寸对齐主要操作.png) 
 
 由于对DDR及AXI总线的分时复用可能会导致帧率降低，且输入侧HDMI输入子卡本身存在限制，输入信号的帧率固定为60，这可能会产生时间资源的冲突，且DDRip核较为复杂，所以没有对DDR进行复用，而是采用大FIFO作为缓冲区。
 
@@ -162,19 +162,19 @@ HDMI输出模块由输出缓冲模块（FIFO_to_hdmi），输出渲染模块（h
 
 在一帧画面的像素信息中，我们的插值算法的有效数据-时间分布与输出渲染的有效数据-时间分布不同，具体地说，插值算法的每行的有效数据分布在行信号有效时间轴的左侧，每行均存在有效数据，行有效均匀分布于场有效时间轴中；输出渲染的行有效集中在场有效时间轴中，有效数据集中在行有效时间轴中。输出的画面占画布的比例越小，二者的分布不一致越严重，致使缩小能力，放大能力，帧率不可兼得，所以这里我们根据缩放后图像的长宽所在的范围动态的确定FIFO写入和读出的时机，最终使视频流输出稳定在640×480~2560×1440放大，50Hz的状态。
 
-![2K时序参数](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/2K时序参数.png) 
+![2K时序参数](img/2K时序参数.png) 
 
 HDMI差分输出驱动模块通过Efinity提供的LVDS进行并—串转换与差分转换，将添加了消隐区的一帧图像通过底板上的HDMI输出接口输出到显示器或采集卡上显示。
 
-![Efinity差分输出引脚](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/Efinity差分输出引脚.png) 
+![Efinity差分输出引脚](img/Efinity差分输出引脚.png) 
 
-![Efinity并—串转换配置](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/Efinity并—串转换配置.png) 
+![Efinity并—串转换配置](img/Efinity并—串转换配置.png) 
 
 ## 2.2 设计2介绍
 
 ### 2.2.1 设计2整体介绍
 
-![设计2总体框图](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/设计2总体框图.png) 
+![设计2总体框图](img/设计2总体框图.png) 
 
 整体结构图与1类似，同样分为输入模块，数据处理模块，控制模块，输出模块。与设计1相比，其不同点在于将DDR作为了输出端缓冲，FIFO作为了输入端缓冲。由于DDR与FIFO作为缓冲区的特点不同，数据流处理不同，两种结构也具有不同的性能参数与瓶颈。
 
@@ -184,7 +184,7 @@ HDMI差分输出驱动模块通过Efinity提供的LVDS进行并—串转换与�
 
 ### 2.2.2.2 HDMI输入模块（设计2）
 
-![HDMI输入模块主要信号结构图（设计2）](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/HDMI输入模块主要信号结构图（设计2）.png) 
+![HDMI输入模块主要信号结构图（设计2）](img/HDMI输入模块主要信号结构图（设计2）.png) 
 
 HDMI输入模块由i2c时序控制模块（i2c_timing_ctrl），ADV7611寄存器配置模块（ADV7611_Config），HDMI输入子卡（硬件）以及输入缓冲及修饰模块（data_loader）组成。
 
@@ -194,14 +194,14 @@ data_loader直接获取ADV7611的输入数据并将有效的像素数据写入FI
 
 ### 2.2.2.3 数据处理模块（设计2）
 
-![数据处理模块主要信号结构图（设计2）](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/数据处理模块主要信号结构图（设计2）.png) 
+![数据处理模块主要信号结构图（设计2）](img/数据处理模块主要信号结构图（设计2）.png) 
 
 数据处理模块仅由插值算法模块（rgb_biliner）组成。
 由于HDMI输入模块中，data_loader模块已经还原了行、场信号，设计1中的data_driver模块不再需要。除时钟频率外，这里的算法模块与设计1的实现相同，不再赘述。
 
 ### 2.2.2.4 HDMI输出模块（设计2）
 
-![HDMI输出模块主要信号结构图（设计2）](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/HDMI输出模块主要信号结构图（设计2）.png) 
+![HDMI输出模块主要信号结构图（设计2）](img/HDMI输出模块主要信号结构图（设计2）.png) 
 
 HDMI输出模块由DDR（硬件）以及AXI4总线模块（axi4_ctrl，axi4_mux），输出渲染模块（hdmi_driver），HDMI差分输出驱动模块（rgb2dvi）以及读写乒乓及尺寸对齐模块（ping_pong & size_delay）组成。
 
@@ -213,11 +213,11 @@ BLOCK的切换由代表一帧HDMI输入/插值算法输出结束的process_vs下
 
 输入进入DDR的一帧数据结束由process_vs场信号标明，无需如R_ADDR_SIZE指定尺寸。
 
-![读写乒乓及尺寸对齐模块主要操作](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/读写乒乓及尺寸对齐模块主要操作.png) 
+![读写乒乓及尺寸对齐模块主要操作](img/读写乒乓及尺寸对齐模块主要操作.png) 
 
 输出渲染模块（hdmi_driver）与HDMI差分输出驱动模块（rgb2dvi）功能实现与设计1基本相同。通过行列计数器进行画布填充以及消隐区填充，通过Efinity提供的LVDS进行并—串转换与差分转换，将添加了消隐区的一帧图像通过底板上的HDMI输出接口输出到显示器或采集卡上显示。最终性能参数为160×120~1920×1080，60Hz输出。
 
-![1080p@60VGA时序参数](https://github.com/Floatkyun/Ultra-Vision/blob/main/img/1080p@60VGA时序参数.png) 
+![1080p@60VGA时序参数](img/1080p@60VGA时序参数.png) 
 
 ## Stargazers over time
 [![Stargazers over time](https://starchart.cc/Floatkyun/Ultra-Vision.svg?variant=adaptive)](https://starchart.cc/Floatkyun/Ultra-Vision)
